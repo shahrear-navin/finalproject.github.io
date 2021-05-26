@@ -1,3 +1,26 @@
 .navbar-brand img {
     height: 2.2rem;
 }
+
+
+
+/* portfolio page */
+
+.img-wrapper {
+    width: 430px;
+    height: 253px;
+    display: initial;
+    
+}
+
+.img-wrapper img {
+    width: 430px;
+    height: 253px;
+    object-fit: cover;
+    margin-top: 20px;
+    
+}
+
+.filterButton {
+    margin: 10px 10px;
+}
