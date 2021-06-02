@@ -1,6 +1,38 @@
-.navbar-brand img {
-    height: 2.2rem;
+/* @import url('https://fonts.googleapis.com/css?family=Montserrat:400,600'); */
+
+
+
+/* navigation */
+.navbar {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: .9rem;
+    letter-spacing: .1rem;
+    background-color: rgba(0,0, 0, 0.6)!important;
+  
+  }
+  
+.navbar-brand img{
+
+    height: 2rem;
 }
+.navbar-nav li {
+    padding-right: .7rem;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+    padding-top: .8rem;
+  
+}
+  
+
+/* carousel */
+.carousel-inner > .carousel-item > img {
+    max-height: 800px;
+    
+}
+
+
 
 
 
@@ -21,6 +53,31 @@
     
 }
 
-.filterButton {
-    margin: 10px 10px;
+.filterButton{
+	text-align:center;
+}
+
+
+.fliterbutton .btn{
+	cursor:pointer;
+
+}
+
+
+
+
+/* contact form */
+
+.form-box {
+    max-width: 800px;
+    margin: auto;
+    padding: 50px;
+    background: #ffffff;
+    /* border: 10px solid #f2f2f2; */
+}
+  
+
+  
+input, textarea {
+    width: 100%;
 }
